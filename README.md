@@ -1,3 +1,10 @@
+# current_rabbit_pool
+
+In the multiverse multiple ex_rabbit_pool may exist, ours is the currently updated one.
+See https://github.com/esl/ex_rabbit_pool/issues/86
+
+___
+
 # `ex_rabbit_pool`
 
 A RabbitMQ connection pooling library written in Elixir
@@ -9,12 +16,12 @@ Yes!, but this is not yet another amqp framework, the whole purpose of this lib 
 ## Installation
 
 If [available in Hex](https://hex.pm/docs/publish), the package can be installed
-by adding `ex_rabbit_pool` to your list of dependencies in `mix.exs`:
+by adding `current_rabbit_pool` to your list of dependencies in `mix.exs`:
 
 ```elixir
 def deps do
   [
-    {:ex_rabbit_pool, "~> 1.0.3"}
+    {:current_rabbit_pool, "~> 1.1"}
   ]
 end
 ```

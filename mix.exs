@@ -13,9 +13,9 @@ defmodule ExRabbitPool.MixProject do
       deps: deps(),
       docs: docs(),
       test_coverage: [tool: ExCoveralls],
-      description: "RabbitMQ connection pool library",
+      description: "Forked RabbitMQ connection pool library",
       package: package(),
-      source_url: "https://github.com/esl/ex_rabbit_pool"
+      source_url: "https://github.com/secomind/current_rabbit_pool"
     ]
   end
 
@@ -24,7 +24,8 @@ defmodule ExRabbitPool.MixProject do
       files: ~w(lib .formatter.exs mix.exs README.md LICENSE),
       licenses: ["Apache 2"],
       links: %{
-        "GitHub" => "https://github.com/esl/ex_rabbit_pool",
+        "GitHub" => "https://github.com/secomind/current_rabbit_pool",
+        "Original GitHub" => "https://github.com/esl/ex_rabbit_pool",
         "Blog Post" =>
           "https://www.erlang-solutions.com/blog/ex_rabbit_pool-open-source-amqp-connection-pool.html"
       }
