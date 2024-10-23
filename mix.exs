@@ -21,6 +21,7 @@ defmodule ExRabbitPool.MixProject do
 
   defp package() do
     [
+      name: "current_rabbit_pool",
       files: ~w(lib .formatter.exs mix.exs README.md LICENSE),
       licenses: ["Apache-2.0"],
       links: %{
@@ -34,7 +35,7 @@ defmodule ExRabbitPool.MixProject do
 
   def docs do
     [
-      main: "README",
+      main: "README.md",
       source_url: @url,
       source_ref: "v#{@version}",
       extras: ["README.md"]
