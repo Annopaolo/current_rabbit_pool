@@ -22,7 +22,7 @@ defmodule ExRabbitPool.MixProject do
   defp package() do
     [
       files: ~w(lib .formatter.exs mix.exs README.md LICENSE),
-      licenses: ["Apache 2"],
+      licenses: ["Apache-2.0"],
       links: %{
         "GitHub" => "https://github.com/secomind/current_rabbit_pool",
         "Original GitHub" => "https://github.com/esl/ex_rabbit_pool",
