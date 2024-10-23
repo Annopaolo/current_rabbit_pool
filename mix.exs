@@ -1,12 +1,12 @@
 defmodule ExRabbitPool.MixProject do
   use Mix.Project
 
-  @version "1.1.0"
+  @version "1.1.1"
   @url "https://github.com/esl/ex_rabbit_pool"
 
   def project do
     [
-      app: :ex_rabbit_pool,
+      app: :current_rabbit_pool,
       version: @version,
       elixir: "~> 1.7",
       start_permanent: Mix.env() == :prod,
@@ -21,7 +21,6 @@ defmodule ExRabbitPool.MixProject do
 
   defp package() do
     [
-      name: "current_rabbit_pool",
       files: ~w(lib .formatter.exs mix.exs README.md LICENSE),
       licenses: ["Apache-2.0"],
       links: %{
